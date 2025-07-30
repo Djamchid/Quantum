@@ -1,1089 +1,456 @@
 {
-  "title": "Le Mystère de l'Onde Perdue",
-  "author": "LDVH Quantum",
+  "title": "Les Fluctuations de l'Invisible : Une Quête Scientifique à Travers les Âges",
+  "author": "LDVH Historique Quantique",
+  "characters": [
+    "Isaac Newton",
+    "Christiaan Huygens",
+    "Thomas Young",
+    "Augustin-Jean Fresnel"
+  ],
+  "historical_context": "Cette aventure explore les premières intuitions et observations des phénomènes ondulatoires et corpusculaires de la lumière, bien avant la formalisation de la mécanique quantique. Les 'fluctuations' représentent les mystères non résolus de l'époque qui, avec le recul historique, préfigurent les concepts quantiques.",
   "chapters": {
     "intro": {
-      "text": "Vous êtes le Dr. Aris Thorne, un brillant physicien quantique. Depuis des semaines, votre laboratoire est le théâtre d'étranges phénomènes. Vos mesures d'intrication quantique sont erratiques et une particule que vous étudiez, le 'Qubit-X', semble disparaître et réapparaître aléatoirement. Un voile de mystère plane sur vos recherches. Que décidez-vous de faire ?",
+      "text": "Vous êtes **Isaac Newton**, en l'an 1672, dans votre chambre d'étude à Cambridge. Vos expériences sur la lumière et les prismes ont révélé le spectre des couleurs, mais une question vous hante : la lumière est-elle faite de corpuscules ou d'ondes ? Des phénomènes étranges, de fines **franges lumineuses** et **zones d'ombre imprévues** apparaissent parfois lors de vos observations les plus délicates, défiant votre théorie corpusculaire. Que décidez-vous de faire face à ces anomalies ?",
       "choices": [
         {
-          "text": "Examiner le spectrographe principal pour des anomalies.",
-          "target": "spectrographe_anomalie"
+          "text": "Tenter de modifier la taille des fentes de votre dispositif pour voir l'effet sur les franges.",
+          "target": "fentes_newton"
         },
         {
-          "text": "Revoir les équations de Schrödinger pour une erreur de calcul.",
-          "target": "schrodinger_erreur"
+          "text": "Revoir vos calculs sur la réfraction pour déceler une erreur de votre part.",
+          "target": "calculs_newton"
         },
         {
-          "text": "Consulter votre collègue, le professeur Elara Vance, spécialiste des théories unifiées.",
-          "target": "elara_vance"
+          "text": "Ignorer ces anomalies, les considérant comme des imprécisions de l'expérimentation.",
+          "target": "echec_newton_dogmatisme"
         },
         {
-          "text": "Tenter une nouvelle expérience de superposition, plus audacieuse.",
-          "target": "experience_audacieuse"
+          "text": "Chercher à prouver que ces franges sont des 'reflets' de vos corpuscules de lumière.",
+          "target": "reflets_corpuscules"
         }
       ]
     },
-    "spectrographe_anomalie": {
-      "text": "En examinant le spectrographe, vous remarquez une légère déviation dans le spectre d'émission du Qubit-X, comme si une interaction inconnue perturbait son état. Cela ne colle avec aucune théorie connue. Comment réagissez-vous ?",
+    "fentes_newton": {
+      "text": "Vous réduisez progressivement l'ouverture de la fente par laquelle la lumière passe. Plus la fente est fine, plus les franges deviennent **larges et prononcées**, et les zones d'ombre s'étendent de manière inattendue. Ce comportement contredit l'idée que la lumière n'est qu'un flux de particules direct. C'est comme si la lumière 's'étalait'. Comment interprétez-vous cela ?",
       "choices": [
         {
-          "text": "Calibrer l'appareil avec une précision extrême.",
-          "target": "calibration_extreme"
+          "text": "C'est une preuve que la lumière est une onde, se diffractant.",
+          "target": "huygens_diffraction"
         },
         {
-          "text": "Analyser les données brutes à la recherche de schémas inattendus.",
-          "target": "donnees_brutes"
+          "text": "Il doit y avoir une interaction inconnue entre les corpuscules et les bords de la fente.",
+          "target": "force_inconnue_newton"
         },
         {
-          "text": "Ignorer la déviation, la considérant comme un artefact et passer à autre chose.",
-          "target": "cul_de_sac_artefact"
+          "text": "Consigner soigneusement ces observations, même si elles défient l'explication actuelle.",
+          "target": "legacy_observations"
         },
         {
-          "text": "Tenter de reproduire la déviation en variant les conditions expérimentales.",
-          "target": "reproduire_deviation"
+          "text": "Tenter de supprimer les bords de la fente pour éliminer l'effet.",
+          "target": "echec_newton_suppression"
         }
       ]
     },
-    "schrodinger_erreur": {
-      "text": "Vous vous plongez dans vos notes, révisant chaque terme de l'équation de Schrödinger. Après des heures, vous ne trouvez aucune erreur mathématique. L'équation est correcte, mais le comportement du Qubit-X ne l'est pas. Que faites-vous ensuite ?",
+    "calculs_newton": {
+      "text": "Vous passez des jours et des nuits à revoir chaque équation de votre Opticks. Vos calculs sont irréprochables pour décrire la réfraction et la réflexion. Le problème ne vient pas de vos mathématiques, mais du concept fondamental. Le mystère des franges persiste. Que faites-vous face à cette impasse ?",
       "choices": [
         {
-          "text": "Élargir votre recherche aux théories de la décohérence quantique.",
-          "target": "decoherence_theories"
+          "text": "Chercher une explication alternative aux phénomènes de lumière, même si elle n'est pas la vôtre.",
+          "target": "huygens_ondulatoire"
         },
         {
-          "text": "Chercher une variable cachée non identifiée dans l'environnement.",
-          "target": "variable_cachee"
+          "text": "Continuer à affiner vos instruments pour une précision encore plus grande.",
+          "target": "fentes_newton"
         },
         {
-          "text": "Accepter que les lois de la physique connues sont insuffisantes.",
-          "target": "cul_de_sac_limite_physique"
+          "text": "Admettre que la science n'a pas encore toutes les réponses.",
+          "target": "legacy_observations"
         },
         {
-          "text": "Demander l'avis d'un expert en calcul numérique.",
-          "target": "expert_calcul"
+          "text": "Vous concentrer sur d'autres domaines de la physique, abandonnant ce mystère.",
+          "target": "echec_newton_abandon"
         }
       ]
     },
-    "elara_vance": {
-      "text": "Le professeur Elara Vance, votre ancienne mentor, écoute attentivement votre problème. Elle suggère que vos observations pourraient pointer vers une interaction entre le Qubit-X et un champ d'énergie de point zéro inattendu, ou même une brève incursion dans une dimension parallèle. Ses yeux brillent d'excitation. Que lui proposez-vous ?",
-      "choices": [
-        {
-          "text": "Collaborer sur une expérience visant à détecter un champ de point zéro.",
-          "target": "collaboration_point_zero"
-        },
-        {
-          "text": "Examiner ses propres théories pour des points de convergence.",
-          "target": "theories_elara"
-        },
-        {
-          "text": "Rejeter son hypothèse comme étant trop spéculative.",
-          "target": "cul_de_sac_trop_speculatif"
-        },
-        {
-          "text": "Lui demander si elle a déjà rencontré des phénomènes similaires.",
-          "target": "elara_experiences"
-        }
-      ]
-    },
-    "experience_audacieuse": {
-      "text": "Vous décidez de tenter une superposition de l'état du Qubit-X avec un objet macroscopique, un minuscule diamant. L'expérience est risquée. Au moment où vous activez le champ, une violente secousse ébranle le laboratoire et un léger sifflement aigu emplit l'air. Quand le calme revient, le diamant a disparu et une étrange distorsion se forme autour du Qubit-X. Que faites-vous ?",
-      "choices": [
-        {
-          "text": "Tenter de stabiliser la distorsion avec un champ magnétique.",
-          "target": "stabiliser_distorsion"
-        },
-        {
-          "text": "Prendre des mesures précises de la distorsion.",
-          "target": "mesures_distorsion"
-        },
-        {
-          "text": "Évacuer le laboratoire immédiatement, craignant un danger.",
-          "target": "cul_de_sac_evacuation"
-        },
-        {
-          "text": "Essayer de réactiver l'expérience pour voir ce qui se passe.",
-          "target": "reactiver_experience"
-        }
-      ]
-    },
-    "calibration_extreme": {
-      "text": "Après une calibration minutieuse, la déviation persiste, voire s'accentue légèrement. Cela confirme que l'anomalie est réelle et non instrumentale. C'est troublant. Où orientez-vous vos recherches désormais ?",
-      "choices": [
-        {
-          "text": "Examiner le comportement du Qubit-X sous des températures extrêmes.",
-          "target": "qubit_temperatures"
-        },
-        {
-          "text": "Rechercher des signaux d'énergie exotique autour de l'appareil.",
-          "target": "energie_exotique"
-        },
-        {
-          "text": "Revoir les propriétés fondamentales du Qubit-X lui-même.",
-          "target": "proprietes_qubit"
-        },
-        {
-          "text": "Contacter un expert en nanotechnologie pour analyser le matériel.",
-          "target": "expert_nanotech"
-        }
-      ]
-    },
-    "donnees_brutes": {
-      "text": "En analysant les gigaoctets de données brutes, un motif émerge : le Qubit-X 'saute' entre deux états quantiques précis, mais pas de manière aléatoire. Il y a une séquence, presque un code. C'est une révélation majeure ! Comment interprétez-vous cela ?",
-      "choices": [
-        {
-          "text": "C'est un signe d'une intelligence non humaine communiquant.",
-          "target": "cul_de_sac_intelligence"
-        },
-        {
-          "text": "Il s'agit d'une interaction avec un champ quantique inconnu.",
-          "target": "interaction_champ_inconnu"
-        },
-        {
-          "text": "C'est une manifestation d'un défaut structurel dans le Qubit-X.",
-          "target": "cul_de_sac_defaut_qubit"
-        },
-        {
-          "text": "Le Qubit-X est un conduit pour des informations d'une autre réalité.",
-          "target": "qubit_conduit"
-        }
-      ]
-    },
-    "cul_de_sac_artefact": {
-      "text": "Vous ignorez la déviation, persuadé que c'est un simple artefact. Hélas, le problème du Qubit-X persiste et vos recherches stagnent. Votre laboratoire perd ses financements et vous êtes contraint de fermer. **Fin d'échec : L'Impasse du Scepticisme.**",
+    "echec_newton_dogmatisme": {
+      "text": "Vous décidez que ces anomalies sont le fruit d'erreurs expérimentales mineures. Vous les ignorez et ne les documentez pas sérieusement. Votre théorie corpusculaire domine pendant des siècles, mais ces phénomènes restent une énigme non résolue, entravant la compréhension future de la lumière. **Fin d'échec : L'Obstination.**",
       "choices": []
     },
-    "reproduire_deviation": {
-      "text": "Vous tentez de reproduire la déviation en manipulant divers paramètres : température, pression, champs électromagnétiques. Après plusieurs tentatives infructueuses, vous essayez de l'exposer à un champ gravitationnel très faible, similaire à celui d'un trou noir miniature (créé en laboratoire). Étonnamment, la déviation s'intensifie ! C'est une piste cruciale. Que faites-vous ?",
+    "reflets_corpuscules": {
+      "text": "Vous tentez de théoriser que les corpuscules de lumière rebondissent sur les bords des fentes, créant des 'reflets' qui s'additionnent et se soustraient. Cette explication est forcée et ne correspond pas aux motifs observés. Plus vous essayez de la justifier, plus les faits vous contredisent. Vous êtes dans l'impasse. Que faites-vous ?",
       "choices": [
         {
-          "text": "Augmenter l'intensité du champ gravitationnel.",
-          "target": "augmenter_gravite"
+          "text": "Admettre que votre théorie corpusculaire ne suffit pas à tout expliquer.",
+          "target": "huygens_ondulatoire"
         },
         {
-          "text": "Analyser la corrélation entre la gravité et le comportement du Qubit-X.",
-          "target": "analyse_gravite_qubit"
+          "text": "Chercher des preuves physiques de ces 'rebonds' ou 'interactions de bord'.",
+          "target": "force_inconnue_newton"
         },
         {
-          "text": "Contacter Elara Vance pour ses théories sur l'espace-temps.",
-          "target": "elara_vance"
+          "text": "Classer ces observations comme des curiosités inexpliquées.",
+          "target": "legacy_observations"
         },
         {
-          "text": "Arrêter l'expérience par sécurité, le danger est trop grand.",
-          "target": "cul_de_sac_danger_gravite"
+          "text": "Abandonner la recherche sur la nature de la lumière.",
+          "target": "echec_newton_abandon"
         }
       ]
     },
-    "decoherence_theories": {
-      "text": "Vous vous plongez dans les théories de la décohérence. Le Qubit-X pourrait interagir avec son environnement d'une manière inattendue, perdant sa cohérence plus vite que prévu. Vous concevez un environnement ultra-isolé. Les résultats sont surprenants : la fréquence des disparitions diminue, mais ne cesse pas totalement. Que cela signifie-t-il ?",
+    "huygens_diffraction": {
+      "text": "Votre esprit se tourne vers les travaux d'un contemporain : **Christiaan Huygens**. Ses écrits de 1678, bien que controversés pour vous, proposent que la lumière est une **onde**, se propageant dans un milieu 'éthérique'. Votre observation des franges prend un sens nouveau : elles sont des **phénomènes de diffraction et d'interférence**, prédits par le principe de Huygens. C'est une révélation ! Que faites-vous de cette nouvelle perspective ?",
       "choices": [
         {
-          "text": "La décohérence est la cause principale, mais il y a une cause résiduelle.",
-          "target": "decoherence_residuelle"
+          "text": "Tenter de reproduire les expériences de Huygens pour valider sa théorie.",
+          "target": "huygens_reproduction"
         },
         {
-          "text": "Il existe une source de décohérence que vous n'avez pas identifiée.",
-          "target": "source_decoherence_inconnue"
+          "text": "Chercher des points faibles dans la théorie ondulatoire, pour défendre la vôtre.",
+          "target": "echec_huygens_critique"
         },
         {
-          "text": "Ce n'est pas de la décohérence, mais une interaction plus complexe.",
-          "target": "interaction_champ_inconnu"
+          "text": "Collaborer avec Huygens pour approfondir la théorie ondulatoire de la lumière.",
+          "target": "collaboration_huygens"
         },
         {
-          "text": "Le Qubit-X a une propriété intrinsèque qui le rend instable.",
-          "target": "proprietes_qubit"
+          "text": "Documenter ces observations et laisser le débat ouvert pour l'avenir.",
+          "target": "legacy_observations"
         }
       ]
     },
-    "variable_cachee": {
-      "text": "Vous installez des capteurs environnementaux sensibles à tout spectre connu : électromagnétique, thermique, sismique, même neutrinos. Rien. Cependant, un capteur expérimental, conçu pour détecter des fluctuations infimes dans le vide quantique, enregistre des pics sporadiques au moment des disparitions. Qu'est-ce que cela pourrait être ?",
+    "force_inconnue_newton": {
+      "text": "Vous suspectez l'existence d'une force ou d'une interaction inconnue entre la lumière et la matière à petite échelle. Vous concevez des expériences pour détecter cette force. Vos efforts sont vains ; la technologie de l'époque ne permet pas de sonder le monde à cette échelle. Vous ne trouvez aucune preuve. **Fin d'échec : La Limite Instrumentale.**",
+      "choices": []
+    },
+    "legacy_observations": {
+      "text": "Vous consignez méticuleusement toutes vos observations des franges et des zones d'ombre, les décrivant avec une précision inégalée, même si vous n'avez pas d'explication satisfaisante. Ces 'anomalies' deviendront des points de départ cruciaux pour les générations futures de scientifiques, qui reprendront le flambeau. **Succès d'étape : Le Jalon Historique.** (Ouvre la voie à Young)",
       "choices": [
         {
-          "text": "Une résonance du vide quantique avec le Qubit-X.",
-          "target": "resonance_vide_quantique"
-        },
-        {
-          "text": "Une interférence d'une technologie avancée inconnue.",
-          "target": "cul_de_sac_interference_alien"
-        },
-        {
-          "text": "Un effet secondaire imprévu de votre propre équipement.",
-          "target": "cul_de_sac_equipement"
-        },
-        {
-          "text": "Le Qubit-X génère lui-même ces fluctuations.",
-          "target": "qubit_generateur"
+          "text": "Le temps passe, vos notes sont étudiées des décennies plus tard...",
+          "target": "young_intro"
         }
       ]
     },
-    "cul_de_sac_limite_physique": {
-      "text": "Vous concluez que les lois de la physique sont insuffisantes. Votre désespoir vous ronge. Incapable de progresser, vous abandonnez la recherche et vous retirez du monde scientifique. **Fin d'échec : Le Poids de l'Inconnu.**",
+    "echec_newton_suppression": {
+      "text": "Vous essayez de créer une fente sans bords ou de les rendre 'invisibles' à la lumière. C'est une tâche impossible avec la technologie du 17e siècle. Vos expériences échouent lamentablement, et le problème persiste. **Fin d'échec : L'Illusion de Perfection.**",
       "choices": []
     },
-    "expert_calcul": {
-      "text": "L'expert en calcul numérique, le Dr. Chen, examine vos équations. Il n'y trouve aucune erreur. Cependant, il note que certaines de vos approximations, bien que minimes, pourraient avoir des conséquences non linéaires dans un système quantique aussi complexe. Il suggère une simulation avec des précisions extrêmes. Faut-il suivre son conseil ?",
+    "huygens_ondulatoire": {
+      "text": "Vous prenez connaissance des travaux de **Christiaan Huygens** et de sa théorie ondulatoire de la lumière. Bien que vous restiez un fervent défenseur des corpuscules, vous reconnaissez la puissance explicative de son principe pour la diffraction. Un doute s'insinue. Comment réagissez-vous à cette confrontation intellectuelle ?",
       "choices": [
         {
-          "text": "Oui, lancer la simulation la plus détaillée possible.",
-          "target": "simulation_extreme"
+          "text": "Tenter de concilier les deux théories, corpusculaire et ondulatoire.",
+          "target": "echec_concilier"
         },
         {
-          "text": "Non, les approximations sont standard, il doit y avoir autre chose.",
-          "target": "variable_cachee"
+          "text": "Rechercher des phénomènes que la théorie ondulatoire ne peut expliquer.",
+          "target": "huygens_reproduction"
         },
         {
-          "text": "Lui demander de se concentrer sur les données d'observation plutôt que les équations.",
-          "target": "donnees_brutes"
+          "text": "Reconnaître la valeur de la théorie de Huygens et la laisser ouverte aux discussions.",
+          "target": "legacy_observations"
         },
         {
-          "text": "Le remercier et chercher une autre approche.",
-          "target": "decoherence_theories"
+          "text": "Vous retirez du débat, laissant la controverse aux autres.",
+          "target": "echec_newton_abandon"
         }
       ]
     },
-    "collaboration_point_zero": {
-      "text": "Elara accepte avec enthousiasme. Ensemble, vous concevez un capteur de fluctuations de point zéro d'une sensibilité sans précédent. Après des jours de réglages, le capteur réagit violemment au moment précis où le Qubit-X disparaît ! Un champ d'énergie inconnu interagit bien avec votre particule ! Comment réagissez-vous à cette découverte révolutionnaire ?",
+    "echec_newton_abandon": {
+      "text": "Fatigué par l'énigme des franges, vous décidez de vous concentrer sur la gravitation et le calcul. Votre contribution à ces domaines est immense, mais la nature de la lumière reste un mystère irrésolu de votre vivant. **Fin d'échec : Le Mystère Intact.**",
+      "choices": []
+    },
+    "huygens_reproduction": {
+      "text": "Vous tentez de reproduire les expériences de Huygens, notamment celles sur la double réfraction du spath d'Islande. Vos résultats confirment ses observations. La lumière se comporte de manière ondulatoire. Votre propre vision corpusculaire est ébranlée. Que faites-vous de cette confirmation ?",
       "choices": [
         {
-          "text": "Tenter de piéger le champ d'énergie pour l'étudier.",
-          "target": "pieger_champ_energie"
+          "text": "Approfondir la théorie ondulatoire, cherchant ses limites et ses forces.",
+          "target": "collaboration_huygens"
         },
         {
-          "text": "Analyser la nature du champ : est-il naturel ou artificiel ?",
-          "target": "analyse_nature_champ"
+          "text": "Chercher une explication corpusculaire à ces nouveaux phénomènes.",
+          "target": "echec_corpusculaire_force"
         },
         {
-          "text": "Utiliser le champ pour contrôler le Qubit-X.",
-          "target": "controler_qubit"
+          "text": "Communiquer vos observations, même si elles sont en contradiction avec vos idées initiales.",
+          "target": "legacy_observations"
         },
         {
-          "text": "Publier immédiatement vos découvertes, au risque de la prudence.",
-          "target": "cul_de_sac_publication"
+          "text": "Vous tournez vers l'étude des sons, qui sont des ondes, pour des analogies.",
+          "target": "young_analogie_son"
         }
       ]
     },
-    "theories_elara": {
-      "text": "Vous passez des heures à étudier les travaux d'Elara sur les théories unifiées et les dimensions cachées. Vous trouvez une mention de 'résonances inter-dimensionnelles' qui correspond étrangement à ce que vous observez avec le Qubit-X. Il semble que votre particule, pour une raison inconnue, 'glisse' brièvement dans une autre dimension. Que faites-vous de cette information ?",
+    "echec_huygens_critique": {
+      "text": "Vous passez des années à chercher des failles dans la théorie de Huygens. Bien que vous trouviez quelques points faibles, vous ne parvenez pas à invalider l'explication des phénomènes ondulatoires. La théorie corpusculaire reste dominante grâce à votre influence, retardant l'acceptation des ondes pendant des décennies. **Fin d'échec : Le Retard de la Science.**",
+      "choices": []
+    },
+    "collaboration_huygens": {
+      "text": "Bien que l'histoire vous oppose, dans cette chronologie, vous décidez de collaborer avec **Christiaan Huygens**. Vos esprits brillants, combinant votre rigueur expérimentale et sa vision ondulatoire, permettent de jeter les bases d'une compréhension plus profonde de la lumière. Ensemble, vous affinez le principe de Huygens et prédisez de nouveaux phénomènes. **Succès d'étape : La Première Synthèse.** (Mène à Young pour les interférences)",
       "choices": [
         {
-          "text": "Développer un 'ancre' quantique pour maintenir le Qubit-X dans votre dimension.",
-          "target": "ancre_quantique"
-        },
-        {
-          "text": "Tenter d'observer cette autre dimension.",
-          "target": "observer_autre_dimension"
-        },
-        {
-          "text": "Chercher la cause de ces 'glissements' dimensionnels.",
-          "target": "cause_glissements"
-        },
-        {
-          "text": "Demander à Elara de vous aider à modéliser ce phénomène.",
-          "target": "collaboration_point_zero"
+          "text": "Vos travaux conjoints sont transmis aux générations futures...",
+          "target": "young_intro"
         }
       ]
     },
-    "cul_de_sac_trop_speculatif": {
-      "text": "Vous rejetez les idées d'Elara comme trop farfelues. Le problème du Qubit-X persiste et vos recherches tournent en rond. Vous finissez par sombrer dans l'oubli scientifique. **Fin d'échec : Le Refus de l'Inattendu.**",
+    "echec_concilier": {
+      "text": "Vous tentez désespérément de concilier votre théorie corpusculaire avec les phénomènes ondulatoires observés. Vous forcez les concepts, créant une théorie complexe et incohérente qui ne satisfait personne. Votre travail est ignoré. **Fin d'échec : La Théorie Tordue.**",
       "choices": []
     },
-    "elara_experiences": {
-      "text": "Elara se tait un instant, son regard lointain. Elle vous confie avoir observé des phénomènes similaires il y a des années, avec des particules exotiques, mais n'avait jamais pu les prouver. Elle avait finalement abandonné ces recherches, découragée. Cependant, votre cas la galvanise. Que lui proposez-vous ?",
+    "echec_corpusculaire_force": {
+      "text": "Vous tentez de trouver une explication purement corpusculaire aux phénomènes de double réfraction et de diffraction. Vous proposez des 'forces' invisibles agissant sur les corpuscules. Ces hypothèses deviennent de plus en plus complexes et invraisemblables, menant à une impasse théorique. **Fin d'échec : L'Hypothèse Forcée.**",
+      "choices": []
+    },
+    "young_intro": {
+      "text": "Plus d'un siècle plus tard, en 1801, vos observations (ou les travaux de Newton et Huygens combinés) parviennent à **Thomas Young**. Ce médecin polyglotte et physicien est obsédé par la nature de la lumière. Il prend en compte les 'ombres' et les 'franges' que vous avez observées. Il formule une hypothèse audacieuse : et si la lumière était une onde, comme le son ? Il imagine une expérience pour le prouver. Que faites-vous ?",
       "choices": [
         {
-          "text": "Examiner ses anciennes données à la recherche d'indices.",
-          "target": "elara_anciennes_donnees"
+          "text": "Concevoir une expérience avec deux fentes, où la lumière devrait interférer.",
+          "target": "double_fente_young"
         },
         {
-          "text": "L'aider à reprendre ses propres recherches, en utilisant le Qubit-X.",
-          "target": "reprendre_recherches_elara"
+          "text": "Rechercher des analogies entre le comportement de la lumière et celui des vagues.",
+          "target": "young_analogie_vagues"
         },
         {
-          "text": "Combiner vos approches pour une nouvelle expérience commune.",
-          "target": "collaboration_point_zero"
+          "text": "Étudier les propriétés des ondes sonores pour mieux comprendre la lumière.",
+          "target": "young_analogie_son"
         },
         {
-          "text": "Lui demander comment elle a fait pour gérer l'échec.",
-          "target": "cul_de_sac_elara_echec"
+          "text": "Douter de la possibilité de prouver une nature ondulatoire.",
+          "target": "echec_young_doute"
         }
       ]
     },
-    "stabiliser_distorsion": {
-      "text": "Vous activez un champ magnétique puissant, espérant contenir la distorsion. Le sifflement s'intensifie, la distorsion scintille, puis s'effondre sur elle-même. Le Qubit-X est intact, mais le diamant réapparaît, étrangement… inversé ? Ses atomes semblent être en phase inversée. C'est une découverte stupéfiante mais aussi terrifiante. Que signifie cette inversion ?",
+    "young_analogie_son": {
+      "text": "Vous explorez en détail la propagation des ondes sonores : la superposition, les battements, l'interférence. Vous constatez des similitudes frappantes avec les franges lumineuses que Newton avait observées. Cette analogie vous conforte dans l'idée que la lumière est également une onde. Que faites-vous de cette inspiration ?",
       "choices": [
         {
-          "text": "C'est une preuve d'anti-matière ou d'une symétrie inversée.",
-          "target": "matiere_inversee"
+          "text": "Développer un modèle mathématique pour les ondes lumineuses basé sur le son.",
+          "target": "fresnel_modele"
         },
         {
-          "text": "Le diamant a traversé un miroir dimensionnel.",
-          "target": "miroir_dimensionnel"
+          "text": "Mettre en place une expérience pour prouver l'interférence lumineuse.",
+          "target": "double_fente_young"
         },
         {
-          "text": "L'expérience a créé une instabilité quantique dangereuse.",
-          "target": "cul_de_sac_instabilite_dangereuse"
+          "text": "Publier vos observations et vos analogies, inspirant d'autres chercheurs.",
+          "target": "legacy_observations_young"
         },
         {
-          "text": "Il faut refaire l'expérience pour confirmer l'observation.",
-          "target": "reactiver_experience"
+          "text": "Rechercher la nature du milieu dans lequel la lumière ondule (l'éther).",
+          "target": "fresnel_ether"
         }
       ]
     },
-    "mesures_distorsion": {
-      "text": "Vous prenez des mesures précises de la distorsion. Elle émet des ondes gravitationnelles infimes et des fréquences électromagnétiques inexpliquées. C'est comme une mini-singularité qui ouvre un passage. Que faites-vous avec ces données ?",
+    "double_fente_young": {
+      "text": "Vous réalisez l'expérience de la **double fente**. En faisant passer la lumière à travers deux petites ouvertures parallèles, vous observez, non pas deux bandes lumineuses simples, mais une série de **franges brillantes et sombres**, alternées. C'est la preuve irréfutable de l'**interférence** et de la nature **ondulatoire** de la lumière ! C'est une découverte majeure qui réfute la théorie corpusculaire dominante de Newton. Comment communiquez-vous cette découverte ?",
       "choices": [
         {
-          "text": "Essayer d'envoyer un signal à travers la distorsion.",
-          "target": "envoyer_signal"
+          "text": "Publier vos résultats dans les Annales de philosophie.",
+          "target": "succes_young_double_fente"
         },
         {
-          "text": "Tenter de refermer la distorsion pour éviter tout danger.",
-          "target": "refermer_distorsion"
+          "text": "Chercher à comprendre pourquoi certains phénomènes ne sont pas expliqués par les ondes (polarisation).",
+          "target": "fresnel_polarisation"
         },
         {
-          "text": "Appeler Elara Vance, cette découverte entre dans son domaine.",
-          "target": "elara_vance"
+          "text": "Développer une théorie complète de la lumière basée sur les ondes.",
+          "target": "fresnel_modele"
         },
         {
-          "text": "Analyser la signature énergétique de la distorsion.",
-          "target": "analyse_nature_champ"
+          "text": "Défier publiquement les partisans de la théorie corpusculaire.",
+          "target": "echec_young_polemique"
         }
       ]
     },
-    "cul_de_sac_evacuation": {
-      "text": "Paniqué par le danger potentiel, vous évacuez le laboratoire et coupez toutes les alimentations. Le Qubit-X, laissé à lui-même, disparaît définitivement. Votre recherche est un échec total. **Fin d'échec : La Peur de l'Inconnu.**",
-      "choices": []
-    },
-    "reactiver_experience": {
-      "text": "Malgré le danger, votre curiosité est trop forte. Vous réactivez l'expérience. Cette fois, la distorsion s'agrandit, un vortex miniature s'ouvre, et un filet de lumière étrange en jaillit, projetant des ombres mouvantes sur les murs. Vous sentez une force d'attraction vous tirer. Que faites-vous ?",
+    "young_analogie_vagues": {
+      "text": "Vous observez attentivement les vagues sur l'eau : comment elles s'étendent, se rencontrent, et se superposent pour créer des crêtes et des creux. Vous voyez dans ce comportement une analogie parfaite avec les franges de lumière. Cette intuition est forte, mais il vous faut une preuve concrète. Que faites-vous ?",
       "choices": [
         {
-          "text": "Résister à l'attraction et tenter de couper l'alimentation.",
-          "target": "resister_attraction"
+          "text": "Concevoir une expérience pour prouver l'interférence de la lumière.",
+          "target": "double_fente_young"
         },
         {
-          "text": "Vous laisser emporter par le vortex, vers l'inconnu.",
-          "target": "succes_vortex"
+          "text": "Développer un modèle mathématique pour ces ondes lumineuses.",
+          "target": "fresnel_modele"
         },
         {
-          "text": "Appeler Elara Vance à l'aide, elle seule pourrait comprendre.",
-          "target": "elara_vance"
+          "text": "Chercher d'autres exemples d'ondes pour renforcer votre argumentaire.",
+          "target": "young_analogie_son"
         },
         {
-          "text": "Lancer une sonde de détection dans le vortex avant d'y aller.",
-          "target": "sonde_vortex"
+          "text": "Publier vos idées, espérant qu'elles soient reprises par d'autres.",
+          "target": "legacy_observations_young"
         }
       ]
     },
-    "qubit_temperatures": {
-      "text": "Sous des températures proches du zéro absolu, le comportement erratique du Qubit-X diminue légèrement, mais ne disparaît pas. Il semble que la température influence son interaction, mais n'en est pas la cause unique. Cette observation est une piste secondaire. Que faites-vous ?",
+    "echec_young_doute": {
+      "text": "Vous doutez de la possibilité de prouver la nature ondulatoire de la lumière et vous vous concentrez sur d'autres domaines de vos vastes connaissances (médecine, hiéroglyphes). La percée est laissée à d'autres. **Fin d'échec : Le Doute du Génie.**",
+      "choices": []
+    },
+    "fresnel_modele": {
+      "text": "Vos travaux mathématiques sur les ondes, inspirés par Young, attirent l'attention d'**Augustin-Jean Fresnel** en France. Il utilise vos idées pour développer un **modèle mathématique rigoureux de la diffraction et de l'interférence**, prédisant avec précision les motifs des franges et des ombres. Il explique comment la lumière peut se courber autour des obstacles. Votre collaboration (indirecte ou directe) est cruciale ! Que faites-vous de ce modèle ?",
       "choices": [
         {
-          "text": "Combiner cette information avec les données sur les fluctuations du vide.",
-          "target": "resonance_vide_quantique"
+          "text": "L'utiliser pour prédire de nouveaux phénomènes optiques.",
+          "target": "fresnel_prediction"
         },
         {
-          "text": "Augmenter encore plus le froid, jusqu'aux limites techniques.",
-          "target": "cul_de_sac_froid_extreme"
+          "text": "Publier ce modèle comme la preuve définitive de la nature ondulatoire de la lumière.",
+          "target": "succes_fresnel_onde_eponyme"
         },
         {
-          "text": "Chercher des théories quantiques qui lient la température aux dimensions.",
-          "target": "theories_elara"
+          "text": "Rechercher la nature du 'milieu' dans lequel ces ondes se propagent (l'éther).",
+          "target": "fresnel_ether"
         },
         {
-          "text": "Passer à l'étude des champs d'énergie autour du Qubit-X.",
-          "target": "energie_exotique"
+          "text": "Défier les derniers partisans de la théorie corpusculaire.",
+          "target": "echec_fresnel_polemique"
         }
       ]
     },
-    "energie_exotique": {
-      "text": "Vous déployez des capteurs d'énergie capables de détecter des formes exotiques, au-delà du spectre électromagnétique. Vous captez une signature énergétique très faible mais distincte, émanant non pas du Qubit-X lui-même, mais de 'nulle part' à proximité, juste avant chaque disparition. C'est une énergie fantôme ! Que décidez-vous ?",
+    "legacy_observations_young": {
+      "text": "Vos publications, bien que parfois critiquées initialement, sont une source d'inspiration majeure pour la prochaine génération de physiciens, en particulier pour Augustin-Jean Fresnel. Vos observations et vos analogies jettent les bases de la victoire de la théorie ondulatoire. **Succès d'étape : Le Catalyseur.** (Ouvre la voie à Fresnel)",
       "choices": [
         {
-          "text": "Tenter de focaliser cette énergie pour l'étudier.",
-          "target": "focaliser_energie"
-        },
-        {
-          "text": "Analyser la signature spectrale de cette énergie.",
-          "target": "analyse_nature_champ"
-        },
-        {
-          "text": "Hypothéser une source lointaine, extraterrestre.",
-          "target": "cul_de_sac_alien_lointain"
-        },
-        {
-          "text": "Construire un bouclier pour bloquer cette énergie fantôme.",
-          "target": "bloquer_energie"
+          "text": "Vos travaux inspirent un jeune physicien français...",
+          "target": "fresnel_intro"
         }
       ]
     },
-    "proprietes_qubit": {
-      "text": "Vous revenez aux fondamentaux du Qubit-X. Est-il possible qu'il ait une propriété intrinsèque inconnue ? Vous effectuez des tests de spin et de moment magnétique à des niveaux de précision inouïs. Vous découvrez une légère anomalie dans son spin : il semble osciller entre deux états avec une fréquence bizarre, comme s'il était tiré par une force extérieure subtile. Comment interprétez-vous cela ?",
+    "succes_young_double_fente": {
+      "text": "Votre article détaillant l'expérience de la double fente est publié. Malgré les critiques initiales des partisans de Newton, la simplicité et la clarté de vos résultats finissent par convaincre la majorité de la communauté scientifique. La **nature ondulatoire de la lumière est établie** pour le siècle à venir ! C'est une révolution dans l'optique. **Succès : La Victoire de l'Onde.**",
+      "choices": []
+    },
+    "fresnel_polarisation": {
+      "text": "Vous explorez des phénomènes plus complexes, comme la **polarisation** de la lumière. Vous réalisez que les ondes lumineuses ne sont pas de simples vagues, mais des **ondes transversales**, vibrant dans une direction spécifique. Cette découverte affine encore plus la théorie ondulatoire, mais soulève de nouvelles questions sur la nature de l'éther. Que faites-vous ?",
       "choices": [
         {
-          "text": "C'est une nouvelle forme d'intrication spontanée.",
-          "target": "intrication_spontanee"
+          "text": "Développer un modèle mathématique qui intègre cette nouvelle propriété.",
+          "target": "fresnel_modele"
         },
         {
-          "text": "Une influence gravitationnelle ou inter-dimensionnelle.",
-          "target": "reproduire_deviation"
+          "text": "Rechercher la nature de l'éther, le milieu de propagation.",
+          "target": "fresnel_ether"
         },
         {
-          "text": "Un défaut de fabrication de la particule.",
-          "target": "cul_de_sac_defaut_fabrication"
+          "text": "Publier vos découvertes sur la polarisation, enrichissant la théorie ondulatoire.",
+          "target": "succes_fresnel_onde_eponyme"
         },
         {
-          "text": "Le Qubit-X est conscient ou a une forme de volonté.",
-          "target": "cul_de_sac_conscience_qubit"
+          "text": "Vous concentrer uniquement sur les applications de cette découverte.",
+          "target": "echec_fresnel_application"
         }
       ]
     },
-    "expert_nanotech": {
-      "text": "L'expert en nanotechnologie, Dr. Anya Sharma, examine la structure du Qubit-X au microscope électronique. Elle ne trouve aucun défaut matériel. Cependant, elle remarque une 'gravure' subatomique extrêmement complexe sur sa surface, invisible avec des techniques standard. C'est comme un circuit gravé par une intelligence insondable. Qu'est-ce que cela signifie ?",
+    "echec_young_polemique": {
+      "text": "Vous vous engagez dans une série de débats publics virulents avec les partisans de Newton. Bien que vos arguments soient solides, votre approche agressive aliène certains scientifiques. La théorie ondulatoire gagne du terrain, mais non sans heurts et retards inutiles. **Fin d'échec : La Guerre des Idées.**",
+      "choices": []
+    },
+    "fresnel_intro": {
+      "text": "En tant qu'**Augustin-Jean Fresnel**, en 1815, vous êtes fasciné par les travaux de Young et la controverse sur la nature de la lumière. Ingénieur brillant, vous avez une approche mathématique rigoureuse. Les franges et les zones d'ombre vous intriguent. Comment allez-vous faire avancer la compréhension de ce phénomène ?",
       "choices": [
         {
-          "text": "Le Qubit-X est une technologie d'une civilisation avancée.",
-          "target": "technologie_avancee"
+          "text": "Développer un modèle mathématique complet de la diffraction et de l'interférence.",
+          "target": "fresnel_modele"
         },
         {
-          "text": "C'est une formation naturelle d'une complexité inouïe.",
-          "target": "cul_de_sac_formation_naturelle"
+          "text": "Expérimenter avec des obstacles complexes pour observer de nouveaux motifs.",
+          "target": "fresnel_prediction"
         },
         {
-          "text": "C'est la preuve d'un contact passé avec une entité extra-dimensionnelle.",
-          "target": "succes_contact_extraterrestre"
+          "text": "Étudier la polarisation de la lumière pour comprendre sa nature plus profonde.",
+          "target": "fresnel_polarisation"
         },
         {
-          "text": "L'inscription est un langage, un message codé.",
-          "target": "message_code"
+          "text": "Chercher la nature du milieu dans lequel ces ondes se propagent.",
+          "target": "fresnel_ether"
         }
       ]
     },
-    "interaction_champ_inconnu": {
-      "text": "Vous êtes de plus en plus certain que le Qubit-X interagit avec un champ quantique inconnu. Vous concevez un générateur de champ inverse, espérant le neutraliser ou le révéler. En l'activant, le Qubit-X disparaît... mais ne réapparaît pas ! Paniqué, vous tentez de désactiver le générateur, mais il est bloqué. Votre particule est perdue à jamais. **Fin d'échec : L'Erreur de Manipulation.**",
-      "choices": []
-    },
-    "cul_de_sac_defaut_qubit": {
-      "text": "Vous concluez que le Qubit-X est défectueux et le mettez au rebut. Vous commandez un nouveau spécimen, mais les phénomènes étranges reprennent avec le nouveau Qubit-X. Vous réalisez votre erreur, mais il est trop tard : le problème est ailleurs et vous avez perdu un temps précieux. **Fin d'échec : La Fausse Piste.**",
-      "choices": []
-    },
-    "qubit_conduit": {
-      "text": "L'idée que le Qubit-X soit un conduit pour des informations d'une autre réalité vous obsède. Vous tentez d'établir une interface, un moyen de décoder ces 'sauts'. Après des tentatives infructueuses, vous réussissez à créer un algorithme qui interprète les séquences de sauts comme un flux de données brutes. Vous commencez à recevoir des images floues, des sons étranges. Que faites-vous ?",
+    "fresnel_prediction": {
+      "text": "En utilisant votre modèle mathématique, vous prédisez l'existence d'un point lumineux au centre de l'ombre d'un disque opaque (le **point de Poisson-Arago**). Cette prédiction semble absurde aux yeux des corpuscularistes, mais elle est vérifiée expérimentalement par Arago ! C'est un triomphe retentissant de la théorie ondulatoire ! Que faites-vous de ce succès ?",
       "choices": [
         {
-          "text": "Tenter de stabiliser la connexion pour des données claires.",
-          "target": "stabiliser_connexion"
+          "text": "Publier vos travaux, assurant la domination de la théorie ondulatoire.",
+          "target": "succes_fresnel_onde_eponyme"
         },
         {
-          "text": "Envoyer un signal en retour pour voir s'il y a une réponse.",
-          "target": "succes_signal_retour"
+          "text": "Appliquer votre modèle pour concevoir de meilleurs systèmes optiques.",
+          "target": "succes_fresnel_applications"
         },
         {
-          "text": "Cesser immédiatement, craignant d'ouvrir une brèche dangereuse.",
-          "target": "cul_de_sac_peur_breche"
+          "text": "Rechercher les limites de votre modèle et de la théorie ondulatoire.",
+          "target": "fresnel_ether"
         },
         {
-          "text": "Analyser le contenu pour des motifs, des langages ou des formes de vie.",
-          "target": "analyse_contenu_autre_realite"
+          "text": "Vous lancer dans l'enseignement et la popularisation de vos découvertes.",
+          "target": "echec_fresnel_enseignement"
         }
       ]
     },
-    "augmenter_gravite": {
-      "text": "Vous augmentez le champ gravitationnel. La déviation du Qubit-X devient extrême, le Qubit-X lui-même commence à vibrer violemment. Le réacteur générant la gravité surchauffe dangereusement. Les alarmes retentissent. Que faites-vous ?",
+    "succes_fresnel_onde_eponyme": {
+      "text": "Votre modèle mathématique est reconnu comme la description la plus précise de la lumière ondulatoire. Le **principe de Fresnel** et les **zones de Fresnel** deviennent des concepts fondamentaux en optique. La victoire de la théorie ondulatoire est désormais quasi totale. Votre nom est gravé dans l'histoire de la physique ! **Succès Final : La Gloire de l'Onde.**",
+      "choices": []
+    },
+    "fresnel_ether": {
+      "text": "Vous vous attachez à comprendre la nature de l'**éther luminifère**, le milieu élastique et immobile dans lequel la lumière est censée se propager. Vous proposez qu'il est capable de vibrer transversalement, mais cela pose des problèmes avec d'autres phénomènes physiques. Bien que vous ne le sachiez pas, la nature de l'éther deviendra un mystère insoluble qui mènera à la relativité d'Einstein. Votre quête met en lumière les limites de la physique classique. Que faites-vous de cette nouvelle énigme ?",
       "choices": [
         {
-          "text": "Pousser l'expérience à ses limites, au risque de tout.",
-          "target": "succes_revelation_gravite"
+          "text": "Perfectionner votre modèle mathématique de l'éther pour expliquer toutes les observations.",
+          "target": "echec_fresnel_ether_absolu"
         },
         {
-          "text": "Réduire immédiatement le champ gravitationnel.",
-          "target": "analyse_gravite_qubit"
+          "text": "Admettre que la nature de l'éther est un mystère qui dépasse votre compréhension.",
+          "target": "legacy_observations_fresnel"
         },
         {
-          "text": "Évacuer le laboratoire avant une catastrophe.",
-          "target": "cul_de_sac_catastrophe"
+          "text": "Continuer à expérimenter avec la lumière pour trouver de nouvelles propriétés.",
+          "target": "fresnel_prediction"
         },
         {
-          "text": "Essayer de comprendre pourquoi la gravité a un tel effet.",
-          "target": "theories_elara"
+          "text": "Documenter les paradoxes de l'éther pour les générations futures.",
+          "target": "succes_fresnel_paradoxe"
         }
       ]
     },
-    "analyse_gravite_qubit": {
-      "text": "Vous réduisez le champ et analysez la corrélation. Il apparaît que la gravité, même faible, déforme l'espace-temps à l'échelle quantique autour du Qubit-X, créant des 'mini-trous de ver' temporaires par lesquels il 's'échappe'. C'est une découverte stupéfiante qui relie la mécanique quantique à la relativité. Comment capitalisez-vous cette découverte ?",
+    "echec_fresnel_polemique": {
+      "text": "Vous vous engagez dans des polémiques scientifiques acharnées, gaspillant votre énergie à convaincre les derniers récalcitrants. Votre modèle est brillant, mais votre manque de tact vous fait perdre du temps et des alliés potentiels. **Fin d'échec : La Querelle Stérile.**",
+      "choices": []
+    },
+    "succes_fresnel_applications": {
+      "text": "Vos théories et modèles sont immédiatement appliqués à la conception de **lentilles, de télescopes et de microscopes** plus performants. L'optique moderne est transformée, permettant des avancées cruciales dans l'astronomie et la biologie. Votre travail a un impact technologique immense ! **Succès Final : Le Constructeur de Lumière.**",
+      "choices": []
+    },
+    "echec_fresnel_enseignement": {
+      "text": "Vous vous consacrez entièrement à l'enseignement et à la popularisation, délaissant la recherche fondamentale. Bien que votre impact éducatif soit grand, vous ne contribuez plus aux découvertes majeures. **Fin d'échec : La Gloire Partagée.**",
+      "choices": []
+    },
+    "echec_fresnel_application": {
+      "text": "Vous vous concentrez uniquement sur les applications pratiques de la polarisation, sans chercher à en comprendre les fondements théoriques plus profonds. Vous manquez l'opportunité de contribuer à des découvertes fondamentales sur la nature de la lumière. **Fin d'échec : L'Esprit Pragmatique.**",
+      "choices": []
+    },
+    "echec_fresnel_ether_absolu": {
+      "text": "Vous passez le reste de votre vie à tenter de prouver l'existence d'un éther absolu et immuable, malgré les incohérences. Vos modèles deviennent de plus en plus complexes et finissent par s'effondrer sous le poids des observations ultérieures. **Fin d'échec : L'Éther Illusoire.**",
+      "choices": []
+    },
+    "legacy_observations_fresnel": {
+      "text": "Vous documentez les limites et les paradoxes de la théorie de l'éther. Ces interrogations, laissées en suspens, serviront de point de départ à la révolution de la relativité au début du 20e siècle. Votre honnêteté intellectuelle ouvre la voie à Einstein. **Succès d'étape : Le Problème Lointain.**",
       "choices": [
         {
-          "text": "Développer un système de contrôle pour ces mini-trous de ver.",
-          "target": "systeme_controle_trous_ver"
-        },
-        {
-          "text": "Chercher d'autres particules affectées par ces déformations.",
-          "target": "recherche_autres_particules"
-        },
-        {
-          "text": "Publier vos résultats et obtenir la reconnaissance mondiale.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Contacter Elara Vance pour discuter des implications cosmologiques.",
-          "target": "elara_vance"
+          "text": "Vos notes sur l'éther sont étudiées bien après votre mort...",
+          "target": "succes_einstein_premonition"
         }
       ]
     },
-    "cul_de_sac_danger_gravite": {
-      "text": "Vous arrêtez l'expérience par sécurité, craignant un danger. Le Qubit-X revient à son comportement erratique habituel. Vous avez évité un risque, mais manqué une découverte majeure. **Fin d'échec : La Prudence Excessive.**",
+    "succes_fresnel_paradoxe": {
+      "text": "Vous mettez en lumière les paradoxes inhérents à l'idée de l'éther. En décrivant précisément les incohérences entre la propagation des ondes et la mécanique classique, vous préparez inconsciemment le terrain pour la future théorie de la relativité. Vous posez la question cruciale qui trouvera sa réponse bien plus tard. **Succès Final : Le Phare de la Relativité.**",
       "choices": []
     },
-    "decoherence_residuelle": {
-      "text": "Même dans un environnement ultra-isolé, une décohérence résiduelle persiste. Cela suggère qu'une interaction fondamentale, non externe, est en jeu. Il est possible que le Qubit-X interagit avec son propre passé ou futur, ou avec une dimension cachée. Que faites-vous pour explorer cette idée ?",
-      "choices": [
-        {
-          "text": "Tenter de 'piéger' les fluctuations résiduelles pour les analyser.",
-          "target": "pieger_fluctuations"
-        },
-        {
-          "text": "Rechercher des théories quantiques avancées sur le temps et les dimensions.",
-          "target": "theories_elara"
-        },
-        {
-          "text": "Développer une expérience de 'vision' quantique du passé/futur.",
-          "target": "cul_de_sac_voyage_temporel"
-        },
-        {
-          "text": "Ignorer la décohérence résiduelle et chercher ailleurs.",
-          "target": "variable_cachee"
-        }
-      ]
-    },
-    "source_decoherence_inconnue": {
-      "text": "Il existe une source de décohérence que vous n'avez pas identifiée. Votre laboratoire est scanné pour toute interférence, mais rien n'est trouvé. Frustré, vous commencez à douter de votre méthode. **Fin d'échec : Le Doute Persistant.**",
-      "choices": []
-    },
-    "resonance_vide_quantique": {
-      "text": "La résonance du vide quantique ! C'est une théorie audacieuse. Le Qubit-X pourrait résonner avec des fluctuations subatomiques du vide lui-même, créant des brèches éphémères. Vous concevez un 'résonateur de vide' pour amplifier ces fluctuations. En l'activant, le Qubit-X disparaît, mais cette fois, un minuscule portail de lumière apparaît à sa place ! Qu'allez-vous faire ?",
-      "choices": [
-        {
-          "text": "Tenter d'observer ce qui se trouve de l'autre côté du portail.",
-          "target": "observer_autre_dimension"
-        },
-        {
-          "text": "Envoyer une sonde robotique à travers le portail.",
-          "target": "sonde_vortex"
-        },
-        {
-          "text": "Refermer le portail par précaution.",
-          "target": "refermer_distorsion"
-        },
-        {
-          "text": "Essayer de stabiliser le portail pour un passage humain.",
-          "target": "succes_vortex"
-        }
-      ]
-    },
-    "cul_de_sac_interference_alien": {
-      "text": "Vous êtes convaincu que c'est une interférence extraterrestre. Vous passez des mois à essayer de communiquer avec eux, sans succès. Le Qubit-X continue de disparaître, et votre carrière stagne. **Fin d'échec : La Chasse aux Fantômes.**",
-      "choices": []
-    },
-    "cul_de_sac_equipement": {
-      "text": "Vous passez des semaines à vérifier et remplacer chaque pièce de votre équipement, soupçonnant un défaut. Rien n'y fait. Le problème n'est pas matériel. Vous avez perdu un temps précieux. **Fin d'échec : La Recherche Stérile.**",
-      "choices": []
-    },
-    "simulation_extreme": {
-      "text": "La simulation numérique prend des jours, utilisant des supercalculateurs. Les résultats sont formels : vos équations, même avec des approximations minimes, prédisent des 'sauts' quantiques imprévisibles dans des conditions extrêmes. C'est une faille fondamentale dans la compréhension actuelle de la mécanique quantique ! Comment réagissez-vous ?",
-      "choices": [
-        {
-          "text": "Développer une nouvelle théorie quantique qui intègre ces sauts.",
-          "target": "nouvelle_theorie_quantique"
-        },
-        {
-          "text": "Chercher une preuve expérimentale directe de ces sauts.",
-          "target": "experience_audacieuse"
-        },
-        {
-          "text": "Consulter Elara Vance pour ses idées sur les limites de la physique.",
-          "target": "elara_vance"
-        },
-        {
-          "text": "Publier les résultats de la simulation et alerter la communauté scientifique.",
-          "target": "cul_de_sac_publication"
-        }
-      ]
-    },
-    "pieger_champ_energie": {
-      "text": "Vous construisez une cage de Faraday quantique autour du Qubit-X. Au moment où le champ inconnu apparaît, il est piégé ! Vous le visualisez : c'est un flux d'énergie tourbillonnant, traversant des dimensions. C'est le flux d'énergie de point zéro d'une autre réalité ! Une avancée extraordinaire. Que faites-vous maintenant ?",
-      "choices": [
-        {
-          "text": "Tenter d'exploiter cette énergie.",
-          "target": "exploiter_energie"
-        },
-        {
-          "text": "Envoyer un message à travers ce flux d'énergie.",
-          "target": "succes_signal_retour"
-        },
-        {
-          "text": "Analyser sa composition et ses propriétés physiques.",
-          "target": "analyse_nature_champ"
-        },
-        {
-          "text": "Partager cette découverte avec Elara Vance pour qu'elle aide à l'interpréter.",
-          "target": "collaboration_point_zero"
-        }
-      ]
-    },
-    "analyse_nature_champ": {
-      "text": "Vous analysez la signature spectrale du champ d'énergie. Il ne correspond à rien de connu, mais présente des harmoniques étranges, comme un langage ou une séquence. C'est artificiel, ou d'une intelligence non-humaine. C'est une découverte à couper le souffle. Comment réagissez-vous ?",
-      "choices": [
-        {
-          "text": "Tenter d'établir le contact avec la source.",
-          "target": "succes_contact_extraterrestre"
-        },
-        {
-          "text": "Cacher la découverte pour votre propre avantage scientifique.",
-          "target": "cul_de_sac_cache_decouverte"
-        },
-        {
-          "text": "Partager cette découverte avec Elara Vance pour qu'elle aide à l'interpréter.",
-          "target": "collaboration_point_zero"
-        },
-        {
-          "text": "Rechercher des civilisations avancées dans l'univers.",
-          "target": "cul_de_sac_recherche_civilisations"
-        }
-      ]
-    },
-    "controler_qubit": {
-      "text": "Vous essayez d'utiliser le champ d'énergie pour contrôler le Qubit-X. Après quelques ajustements, vous réussissez ! Vous pouvez le faire disparaître et réapparaître à volonté, et même le manipuler dans des états de superposition complexes. Vous avez déverrouillé une nouvelle forme de manipulation quantique ! C'est un succès. Que faites-vous ?",
-      "choices": [
-        {
-          "text": "Développer une nouvelle technologie basée sur cette manipulation.",
-          "target": "succes_nouvelle_technologie"
-        },
-        {
-          "text": "Révéler votre découverte au monde entier.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Utiliser cette capacité pour sonder d'autres dimensions.",
-          "target": "succes_vortex"
-        },
-        {
-          "text": "Gardez cette technologie secrète pour des raisons de sécurité.",
-          "target": "cul_de_sac_secret"
-        }
-      ]
-    },
-    "cul_de_sac_publication": {
-      "text": "Vous publiez vos découvertes sans protection ni validation suffisante. La communauté scientifique vous rejette, vous accusant de fraude, et vos données sont considérées comme non reproductibles. Votre carrière est ruinée. **Fin d'échec : La Précipitation Fatale.**",
-      "choices": []
-    },
-    "ancre_quantique": {
-      "text": "Vous concevez un dispositif pour 'ancrer' le Qubit-X à votre dimension. Après de nombreux tests, vous l'activez. Le Qubit-X reste stable, ses disparitions cessent ! Mais un effet secondaire inattendu se produit : une légère distorsion temporelle apparaît autour de lui, ralentissant le temps dans un petit périmètre. C'est une avancée majeure dans le contrôle des dimensions ! Que faites-vous ?",
-      "choices": [
-        {
-          "text": "Tenter de manipuler la distorsion temporelle.",
-          "target": "succes_manipulation_temps"
-        },
-        {
-          "text": "Comprendre pourquoi l'ancrage a cet effet secondaire.",
-          "target": "cause_glissements"
-        },
-        {
-          "text": "Utiliser l'ancrage pour stabiliser d'autres particules instables.",
-          "target": "succes_nouvelle_technologie"
-        },
-        {
-          "text": "Publier vos résultats pour la reconnaissance mondiale.",
-          "target": "succes_prix_nobel"
-        }
-      ]
-    },
-    "observer_autre_dimension": {
-      "text": "Vous pointez une caméra hypersensible vers le portail. Les images sont floues, comme un kaléidoscope de couleurs et de formes mouvantes, mais vous percevez des structures, des paysages qui défient toute logique terrestre. C'est une autre réalité ! Que faites-vous de cette vision ?",
-      "choices": [
-        {
-          "text": "Tenter d'améliorer la résolution des images.",
-          "target": "stabiliser_connexion"
-        },
-        {
-          "text": "Essayer d'envoyer un signal visuel à travers le portail.",
-          "target": "envoyer_signal"
-        },
-        {
-          "text": "Chercher des signes de vie ou d'intelligence.",
-          "target": "analyse_contenu_autre_realite"
-        },
-        {
-          "text": "Partager ces images avec Elara Vance.",
-          "target": "elara_vance"
-        }
-      ]
-    },
-    "cause_glissements": {
-      "text": "Vous explorez la cause des glissements. Il apparaît que le Qubit-X, par sa structure unique, agit comme un 'résonateur naturel' avec des fréquences vibratoires d'une dimension adjacente. C'est une propriété intrinsèque, non un défaut. Que faites-vous de cette compréhension ?",
-      "choices": [
-        {
-          "text": "Développer un moyen de contrôler ces résonances.",
-          "target": "controler_qubit"
-        },
-        {
-          "text": "Chercher d'autres matériaux avec des propriétés similaires.",
-          "target": "recherche_autres_particules"
-        },
-        {
-          "text": "Construire un appareil pour 'sentir' ces résonances à distance.",
-          "target": "systeme_controle_trous_ver"
-        },
-        {
-          "text": "Publier cette nouvelle compréhension de la physique des dimensions.",
-          "target": "succes_prix_nobel"
-        }
-      ]
-    },
-    "elara_anciennes_donnees": {
-      "text": "Elara vous donne accès à ses anciennes données. Elles sont fragmentées, mais vous trouvez des corrélations troublantes entre des signaux gravitationnels et des phénomènes de 'déphasage' quantique qu'elle avait observés. C'est une confirmation que vous êtes sur la bonne voie. Que faites-vous de ces données ?",
-      "choices": [
-        {
-          "text": "Utiliser ces données pour affiner votre propre modèle.",
-          "target": "nouvelle_theorie_quantique"
-        },
-        {
-          "text": "Collaborer avec Elara pour relancer ses anciennes recherches.",
-          "target": "collaboration_point_zero"
-        },
-        {
-          "text": "Rechercher la source de ces signaux gravitationnels.",
-          "target": "reproduire_deviation"
-        },
-        {
-          "text": "Comprendre pourquoi Elara avait abandonné, au-delà du découragement.",
-          "target": "cul_de_sac_elara_echec"
-        }
-      ]
-    },
-    "reprendre_recherches_elara": {
-      "text": "Vous décidez d'aider Elara à reprendre ses recherches. Avec le Qubit-X comme clé de voûte, vous débloquez des phénomènes qu'elle n'avait pu qu'effleurer. Ensemble, vous mettez au jour une interaction fondamentale entre la matière et le tissu de l'espace-temps à l'échelle quantique. C'est une collaboration fructueuse qui mène à des découvertes révolutionnaires. Que faites-vous de cette collaboration ?",
-      "choices": [
-        {
-          "text": "Co-écrire un article scientifique qui change le monde de la physique.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Développer une nouvelle technologie basée sur vos découvertes.",
-          "target": "succes_nouvelle_technologie"
-        },
-        {
-          "text": "Chercher à communiquer avec des entités extra-dimensionnelles.",
-          "target": "succes_contact_extraterrestre"
-        },
-        {
-          "text": "Continuer vos recherches dans le plus grand secret.",
-          "target": "cul_de_sac_secret"
-        }
-      ]
-    },
-    "cul_de_sac_elara_echec": {
-      "text": "Elara vous explique qu'elle a abandonné car elle s'est sentie seule face à l'incompréhensible, et que les financements ont cessé. Vous réalisez l'importance du soutien et de la collaboration. Cependant, sans une nouvelle approche, vous risquez de subir le même sort. **Fin d'échec : La Solitude du Chercheur.**",
-      "choices": []
-    },
-    "matiere_inversee": {
-      "text": "Le diamant inversé ! C'est une preuve stupéfiante de l'existence de la matière inversée, ou d'une symétrie fondamentale de l'univers que nous ne comprenons pas. Vos collègues sont abasourdis. Cette découverte remet en question toute la physique des particules. Que faites-vous ?",
-      "choices": [
-        {
-          "text": "Tenter de créer d'autres objets en matière inversée.",
-          "target": "succes_nouvelle_technologie"
-        },
-        {
-          "text": "Analyser la matière inversée pour ses propriétés fondamentales.",
-          "target": "analyse_gravite_qubit"
-        },
-        {
-          "text": "Publier cette découverte fracassante, au risque d'être controversé.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Rechercher la source de cette 'inversion' (ex: autre dimension, anti-univers).",
-          "target": "succes_vortex"
-        }
-      ]
-    },
-    "miroir_dimensionnel": {
-      "text": "Le diamant a traversé un miroir dimensionnel. Cette hypothèse, jadis confinée à la science-fiction, semble se concrétiser sous vos yeux. Vous avez ouvert une porte vers un 'anti-univers' où les lois de la physique sont inversées ou légèrement différentes. Que faites-vous de cette découverte ?",
-      "choices": [
-        {
-          "text": "Tenter de stabiliser le 'miroir' pour un passage contrôlé.",
-          "target": "succes_vortex"
-        },
-        {
-          "text": "Envoyer des sondes pour explorer cet anti-univers.",
-          "target": "sonde_vortex"
-        },
-        {
-          "text": "Analyser les propriétés du diamant 'inversé'.",
-          "target": "matiere_inversee"
-        },
-        {
-          "text": "Cacher cette découverte par peur des implications.",
-          "target": "cul_de_sac_secret"
-        }
-      ]
-    },
-    "cul_de_sac_instabilite_dangereuse": {
-      "text": "Vous craignez une instabilité dangereuse. Vous arrêtez toutes les expériences avec le diamant et le Qubit-X. Votre prudence vous empêche de progresser. **Fin d'échec : Le Coût de la Sécurité.**",
-      "choices": []
-    },
-    "envoyer_signal": {
-      "text": "Vous concevez un signal quantique optimisé pour traverser la distorsion/portail. Après quelques tentatives, vous recevez un écho ! C'est une réponse, mais elle est complexe, modulée de manière non-aléatoire. Une intelligence est à l'écoute ! Que faites-vous de cette incroyable découverte ?",
-      "choices": [
-        {
-          "text": "Tenter d'établir une communication bilatérale.",
-          "target": "succes_contact_extraterrestre"
-        },
-        {
-          "text": "Analyser le signal pour le décoder et comprendre son origine.",
-          "target": "analyse_nature_champ"
-        },
-        {
-          "text": "Partager cette découverte avec le monde entier.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Cacher la découverte pour votre propre avantage scientifique.",
-          "target": "cul_de_sac_cache_decouverte"
-        }
-      ]
-    },
-    "refermer_distorsion": {
-      "text": "Vous réussissez à refermer la distorsion/portail, mais le Qubit-X reste à jamais perdu. Vous avez évité un danger potentiel, mais manqué une opportunité scientifique colossale. **Fin d'échec : La Porte Refermée.**",
-      "choices": []
-    },
-    "resister_attraction": {
-      "text": "Vous luttez contre l'attraction du vortex, et avec un effort surhumain, vous parvenez à couper l'alimentation. Le vortex se referme, vous laissant secoué mais indemne. Vous avez échappé à un destin inconnu, mais le mystère du Qubit-X demeure, plus insaisissable que jamais. **Fin d'échec : L'Évasion du Vortex.**",
-      "choices": []
-    },
-    "succes_vortex": {
-      "text": "Vous vous laissez emporter par le vortex. Une sensation de déchirement et de vertige vous envahit, puis une lumière éblouissante. Vous vous retrouvez dans un lieu qui défie toute description, une 'salle' faite de pure énergie, où les lois de la physique semblent fluides. Le Qubit-X est là, au centre, résonnant avec l'environnement. Vous avez percé le secret des réalités multiples ! C'est le triomphe de votre carrière ! **Succès : Le Voyage Interdimensionnel.**",
-      "choices": []
-    },
-    "sonde_vortex": {
-      "text": "Vous lancez une sonde robotique, bardée de capteurs, dans le vortex. Les données qui vous parviennent sont stupéfiantes : des paysages aux couleurs inconnues, des structures géométriques impossibles, des flux d'énergie qui n'existent pas dans notre univers. La sonde ne revient pas, mais ce qu'elle a transmis est suffisant pour des décennies de recherche. Vous avez la preuve irréfutable de l'existence d'autres réalités ! Que faites-vous de ces données ?",
-      "choices": [
-        {
-          "text": "Publier vos résultats pour révolutionner la physique.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Analyser en profondeur les données pour des applications technologiques.",
-          "target": "succes_nouvelle_technologie"
-        },
-        {
-          "text": "Tenter d'envoyer un signal de retour vers l'autre dimension.",
-          "target": "envoyer_signal"
-        },
-        {
-          "text": "Continuer à chercher un moyen d'explorer cette dimension personnellement.",
-          "target": "succes_vortex"
-        }
-      ]
-    },
-    "cul_de_sac_froid_extreme": {
-      "text": "Vous poussez le Qubit-X à des températures encore plus extrêmes. L'appareil de refroidissement lâche, entraînant une surchauffe générale du laboratoire et la destruction de vos précieuses installations. Votre recherche est anéantie. **Fin d'échec : Le Froid Fatal.**",
-      "choices": []
-    },
-    "focaliser_energie": {
-      "text": "Vous construisez un système de lentilles quantiques pour focaliser l'énergie fantôme. Au lieu de la dissiper, elle se condense en une petite sphère lumineuse, émettant un bourdonnement grave. En l'analysant, vous découvrez qu'elle est composée de 'particules virtuelles' rendues réelles par un processus inconnu. Vous avez matérialisé l'énergie du vide ! Que faites-vous de cette sphère d'énergie pure ?",
-      "choices": [
-        {
-          "text": "Tenter de la contrôler et de l'utiliser comme source d'énergie.",
-          "target": "exploiter_energie"
-        },
-        {
-          "text": "Étudier sa composition pour comprendre les lois physiques de l'autre dimension.",
-          "target": "analyse_nature_champ"
-        },
-        {
-          "text": "La laisser se dissiper, craignant ses implications.",
-          "target": "cul_de_sac_peur_breche"
-        },
-        {
-          "text": "La présenter à Elara Vance pour son expertise.",
-          "target": "collaboration_point_zero"
-        }
-      ]
-    },
-    "cul_de_sac_alien_lointain": {
-      "text": "Vous passez le reste de votre carrière à scanner l'espace, persuadé d'une origine extraterrestre lointaine. Vous ne trouvez rien. Votre laboratoire devient une blague scientifique. **Fin d'échec : Le Regard dans le Vide.**",
-      "choices": []
-    },
-    "bloquer_energie": {
-      "text": "Vous construisez un bouclier quantique pour bloquer l'énergie fantôme. Le Qubit-X arrête de disparaître ! C'est une victoire majeure : vous avez identifié la cause et la maîtrisez. Mais en faisant cela, vous avez aussi coupé tout accès à ce qui aurait pu être une source d'information inestimable. Que faites-vous maintenant que le problème est 'résolu' ?",
-      "choices": [
-        {
-          "text": "Démonter le bouclier et tenter de réétudier l'énergie.",
-          "target": "focaliser_energie"
-        },
-        {
-          "text": "Développer une technologie de bouclier quantique pour d'autres applications.",
-          "target": "succes_nouvelle_technologie"
-        },
-        {
-          "text": "Publier vos découvertes sur la maîtrise de l'énergie fantôme.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Vous reposer sur vos lauriers, le mystère est résolu pour vous.",
-          "target": "cul_de_sac_contentement"
-        }
-      ]
-    },
-    "intrication_spontanee": {
-      "text": "Une intrication spontanée avec quoi ? Vous tentez de l'intriquer avec d'autres particules pour voir si cela stabilise le phénomène. Au lieu de cela, toutes les particules s'intriquent de manière chaotique, créant un brouillard quantique incontrôlable dans le laboratoire. C'est le chaos ! **Fin d'échec : Le Désordre Intriqué.**",
-      "choices": []
-    },
-    "cul_de_sac_defaut_fabrication": {
-      "text": "Vous concluez à un défaut de fabrication et jetez le Qubit-X. Un nouveau spécimen présente les mêmes anomalies. Vous avez perdu un temps précieux sur une fausse piste. **Fin d'échec : L'Erreur de Jugement.**",
-      "choices": []
-    },
-    "cul_de_sac_conscience_qubit": {
-      "text": "L'idée que le Qubit-X soit conscient vous pousse vers des recherches métaphysiques, abandonnant la physique pure. Vos travaux deviennent improuvables et vous perdez votre crédibilité scientifique. **Fin d'échec : La Quête Mystique.**",
-      "choices": []
-    },
-    "technologie_avancee": {
-      "text": "Cette 'gravure' est la preuve d'une technologie avancée. Vous utilisez des algorithmes complexes pour tenter de l'interpréter. Après des semaines, des motifs géométriques et des symboles se dessinent, ressemblant à une forme de langage mathématique universel. Vous êtes sur le point de percer un secret d'une civilisation inconnue. Que faites-vous ?",
-      "choices": [
-        {
-          "text": "Continuer à décoder le langage, cherchant le message ultime.",
-          "target": "message_code"
-        },
-        {
-          "text": "Tenter de reproduire la technologie gravée sur d'autres matériaux.",
-          "target": "succes_nouvelle_technologie"
-        },
-        {
-          "text": "Partager cette découverte avec Elara Vance, elle est la mieux placée.",
-          "target": "elara_vance"
-        },
-        {
-          "text": "Cacher cette découverte par peur de l'inconnu.",
-          "target": "cul_de_sac_secret"
-        }
-      ]
-    },
-    "cul_de_sac_formation_naturelle": {
-      "text": "Vous concluez que la gravure est une formation naturelle d'une complexité rare, mais sans signification. Vous passez à côté de l'une des plus grandes découvertes de l'humanité. Votre recherche stagne. **Fin d'échec : La Négation de l'Évidence.**",
-      "choices": []
-    },
-    "succes_contact_extraterrestre": {
-      "text": "Grâce à vos efforts, vous établissez un contact rudimentaire avec l'entité/civilisation émettrice. Vous échangez des informations fondamentales sur la physique et la cosmologie, et apprenez que le Qubit-X était une 'balise' ou un 'outil' envoyé pour sonder votre réalité. Vous avez ouvert le dialogue avec une intelligence au-delà de votre compréhension ! **Succès : Le Premier Contact.**",
-      "choices": []
-    },
-    "message_code": {
-      "text": "En décodant le langage, vous découvrez qu'il s'agit d'un message complexe, une carte stellaire, des équations de physique unifiée bien au-delà des nôtres, et une invitation. Une invitation à rejoindre une 'Fédération Galactique' basée sur la compréhension quantique. Votre travail a dévoilé l'existence d'une vie intelligente avancée dans l'univers ! **Succès : Le Message des Étoiles.**",
-      "choices": []
-    },
-    "stabiliser_connexion": {
-      "text": "Vous travaillez sans relâche pour stabiliser la connexion et obtenir des données claires. Après des mois, les images deviennent nettes : des villes flottantes, des êtres éthérés, des architectures faites de lumière. Vous êtes en train d'observer une civilisation extra-dimensionnelle. Mais au moment où l'image se stabilise, le Qubit-X surchauffe et se désintègre, coupant la connexion. Vous avez une preuve, mais avez perdu l'outil. Que faites-vous ?",
-      "choices": [
-        {
-          "text": "Partager les images avec la communauté scientifique.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Tenter de recréer un nouveau Qubit-X avec les mêmes propriétés.",
-          "target": "succes_nouvelle_technologie"
-        },
-        {
-          "text": "Chercher un autre moyen d'établir le contact.",
-          "target": "envoyer_signal"
-        },
-        {
-          "text": "Vous retirer, déçu d'avoir perdu l'opportunité.",
-          "target": "cul_de_sac_opportunite_perdue"
-        }
-      ]
-    },
-    "succes_signal_retour": {
-      "text": "Votre signal de retour est non seulement reçu, mais une entité vous répond ! Une communication directe est établie, non par des mots, mais par des concepts quantiques et des images mentales. Vous apprenez que le Qubit-X est une sonde exploratrice, et que l'entité est une intelligence collective d'une dimension supérieure. Vous êtes le premier humain à dialoguer avec une forme de vie non-carbonée, non-biologique ! **Succès : Le Dialogue Quantique.**",
-      "choices": []
-    },
-    "cul_de_sac_peur_breche": {
-      "text": "La peur de l'inconnu vous paralyse. Vous cessez toute expérimentation avec le Qubit-X et les portails, craignant des conséquences imprévues. Le mystère persiste, et vous vous retirez de la recherche. **Fin d'échec : Le Regret du Potentiel.**",
-      "choices": []
-    },
-    "analyse_contenu_autre_realite": {
-      "text": "Vous analysez le contenu du flux de données. Au-delà des images et des sons, vous décryptez des schémas mathématiques complexes, des théories physiques bien plus avancées que les nôtres, et la preuve de l'existence d'un 'réseau' de dimensions interconnectées. C'est une compréhension de l'univers qui dépasse tout ce que l'humanité a jamais imaginé ! Que faites-vous de cette connaissance ?",
-      "choices": [
-        {
-          "text": "L'utiliser pour développer une nouvelle physique unifiée.",
-          "target": "nouvelle_theorie_quantique"
-        },
-        {
-          "text": "Chercher à exploiter l'énergie de ces dimensions.",
-          "target": "exploiter_energie"
-        },
-        {
-          "text": "Partager cette connaissance avec le monde entier.",
-          "target": "succes_prix_nobel"
-        },
-        {
-          "text": "Tenter de comprendre qui a envoyé ces informations.",
-          "target": "succes_contact_extraterrestre"
-        }
-      ]
-    },
-    "succes_revelation_gravite": {
-      "text": "Vous poussez le réacteur jusqu'à la limite. Le Qubit-X entre en résonance parfaite, et la distorsion gravitationnelle devient un vortex stable, une petite porte vers un espace-temps où la gravité est la force dominante. Vous avez découvert la 'Porte de Thorne', une passerelle vers des univers où les lois de la physique sont différentes. C'est un succès scientifique sans précédent ! **Succès : La Porte de Thorne.**",
-      "choices": []
-    },
-    "systeme_controle_trous_ver": {
-      "text": "Vous développez un système pour contrôler ces mini-trous de ver. Vous parvenez à les stabiliser brièvement et à les utiliser pour le transport d'informations instantané, défiant les lois de la lumière. C'est le début d'une révolution technologique majeure ! **Succès : Le Transport Quantique.**",
-      "choices": []
-    },
-    "recherche_autres_particules": {
-      "text": "Vous commencez à chercher d'autres particules affectées par ces déformations espace-temps ou résonances inter-dimensionnelles. Vous en trouvez plusieurs, dont des éléments stables dans notre dimension qui se révèlent être instables dans d'autres. Cette découverte ouvre la voie à la manipulation de la matière à un niveau jamais imaginé. **Succès : La Matière Interdimensionnelle.**",
-      "choices": []
-    },
-    "succes_prix_nobel": {
-      "text": "Vos découvertes sont publiées dans les revues les plus prestigieuses et sont saluées comme révolutionnaires. Le monde entier est abasourdi par vos avancées. Vous recevez le prix Nobel de physique, et votre nom est gravé à jamais dans l'histoire de la science. **Succès : La Gloire Scientifique.**",
-      "choices": []
-    },
-    "cul_de_sac_catastrophe": {
-      "text": "Vous évacuez le laboratoire juste avant que le réacteur ne subisse une fusion critique. Le bâtiment est détruit, votre recherche anéantie. Vous avez survécu, mais à quel prix ? **Fin d'échec : Le Désastre du Laboratoire.**",
-      "choices": []
-    },
-    "nouvelle_theorie_quantique": {
-      "text": "Vous élaborez une nouvelle théorie de la mécanique quantique, intégrant les sauts et les interactions inter-dimensionnelles. Cette théorie est élégante, cohérente et prédit de nouveaux phénomènes. Elle est rapidement acceptée par la communauté scientifique, ouvrant une nouvelle ère pour la physique. **Succès : La Nouvelle Physique.**",
-      "choices": []
-    },
-    "exploiter_energie": {
-      "text": "Vous parvenez à exploiter l'énergie du champ ou de la sphère lumineuse, créant une source d'énergie illimitée et propre, capable d'alimenter des villes entières. L'humanité est libérée de sa dépendance aux énergies fossiles, et vous êtes salué comme le sauveur de la planète. **Succès : L'Énergie Ultime.**",
-      "choices": []
-    },
-    "cul_de_sac_cache_decouverte": {
-      "text": "Vous décidez de garder cette découverte secrète, cherchant à l'exploiter pour votre seul profit ou pour des raisons de sécurité. Cependant, le fardeau de ce secret vous ronge, et la communauté scientifique ne vous reconnaît jamais à votre juste valeur. **Fin d'échec : Le Secret Solitaire.**",
-      "choices": []
-    },
-    "succes_nouvelle_technologie": {
-      "text": "Grâce à votre compréhension approfondie du Qubit-X et des phénomènes quantiques, vous développez une technologie révolutionnaire : des ordinateurs quantiques stables, des dispositifs de téléportation d'informations ou des générateurs d'énergie à point zéro. Le monde est transformé par vos innovations. **Succès : L'Innovation Quantique.**",
-      "choices": []
-    },
-    "cul_de_sac_secret": {
-      "text": "Vous gardez jalousement votre découverte, la peur des implications ou le désir de contrôle vous aveuglant. Vous finissez par vivre une vie solitaire, hanté par le potentiel inexploité de ce que vous avez trouvé. **Fin d'échec : Le Secret Éternel.**",
-      "choices": []
-    },
-    "succes_manipulation_temps": {
-      "text": "Vous apprenez à manipuler la distorsion temporelle créée par l'ancrage. Vous pouvez accélérer ou ralentir le temps dans de petits périmètres, ouvrant la voie à des avancées médicales, technologiques et même philosophiques. Vous maîtrisez le temps ! **Succès : Le Maître du Temps.**",
-      "choices": []
-    },
-    "cul_de_sac_recherche_civilisations": {
-      "text": "Vous vous lancez dans une quête utopique pour contacter des civilisations avancées, oubliant votre laboratoire et les problèmes immédiats. Votre recherche est dispersée et infructueuse. **Fin d'échec : La Quête Vaine.**",
-      "choices": []
-    },
-    "cul_de_sac_contentement": {
-      "text": "Satisfait d'avoir résolu le problème, vous ne cherchez pas plus loin. Le mystère est clos pour vous, mais l'univers recèle bien d'autres secrets que vous ne percerez jamais. **Fin d'échec : Le Plafond de Verre.**",
-      "choices": []
-    },
-    "cul_de_sac_opportunite_perdue": {
-      "text": "Déçu d'avoir perdu le Qubit-X, vous ne capitalisez pas sur les données obtenues. Votre découverte est oubliée au profit de recherches plus concrètes. **Fin d'échec : L'Opportunité Manquée.**",
+    "succes_einstein_premonition": {
+      "text": "Des décennies plus tard, les travaux d'**Albert Einstein** sur la relativité restreinte résoudront le problème de l'éther, montrant qu'il est inutile. Votre questionnement a directement mené à l'une des théories les plus fondamentales de la physique moderne. **Succès Final : La Vision de l'Avenir.**",
       "choices": []
     }
   }
